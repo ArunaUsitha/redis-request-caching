@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/cache_test",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Aruna",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "predis/predis": "^1.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "cache_test\\" : "src"
+    }
+  }
+}
